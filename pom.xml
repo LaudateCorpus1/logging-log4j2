@@ -207,7 +207,7 @@
     <elastic.version>7.15.2</elastic.version>
     <mongodb3.version>3.12.4</mongodb3.version>
     <mongodb4.version>4.0.3</mongodb4.version>
-    <groovy.version>2.5.6</groovy.version>
+    <groovy.version>3.0.9</groovy.version>
     <compiler.plugin.version>3.8.1</compiler.plugin.version>
     <pmd.plugin.version>3.13.0</pmd.plugin.version>
     <spotbugs.plugin.version>4.0.4</spotbugs.plugin.version>
