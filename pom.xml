@@ -364,7 +364,7 @@
     <plexus-utils.version>3.2.0</plexus-utils.version>
     <revapi.version>0.22.1</revapi.version>
     <slf4j.version>1.7.36</slf4j.version>
-    <spotbugs.version>4.1.2</spotbugs.version>
+    <spotbugs.version>4.7.3</spotbugs.version>
     <spring.version>5.3.23</spring.version>
     <spring-boot.version>2.7.5</spring-boot.version>
     <system-stubs.version>2.0.1</system-stubs.version>
