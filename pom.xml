@@ -280,7 +280,7 @@
     <!--  https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.4/spring-boot-dependencies-2.7.4.pom -->
     <activemq.version>5.17.2</activemq.version>
     <assertj.version>3.21.0</assertj.version>
-    <awaitility.version>4.0.2</awaitility.version>
+    <awaitility.version>4.2.0</awaitility.version>
     <bsh.version>2.0b6</bsh.version>
     <cassandra.version>3.11.13</cassandra.version>
     <cassandra-driver.version>3.11.3</cassandra-driver.version>
