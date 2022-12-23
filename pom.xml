@@ -247,25 +247,25 @@
     <checkstyle.version>9.3</checkstyle.version>
     <checksum-maven-plugin.version>1.11</checksum-maven-plugin.version>
     <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
-    <docker-maven-plugin.version>0.40.2</docker-maven-plugin.version>
+    <docker-maven-plugin.version>0.40.3</docker-maven-plugin.version>
     <exam-maven-plugin.version>4.13.5</exam-maven-plugin.version>
     <findsecbugs-plugin.version>1.12.0</findsecbugs-plugin.version>
-    <jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
     <maven-bundle-plugin.version>5.1.8</maven-bundle-plugin.version>
     <maven-changes-plugin.version>2.12.1</maven-changes-plugin.version>
     <maven-checkstyle-plugin.version>3.2.0</maven-checkstyle-plugin.version>
-    <maven-dependency-plugin.version>3.3.0</maven-dependency-plugin.version>
+    <maven-dependency-plugin.version>3.4.0</maven-dependency-plugin.version>
     <maven-doap-plugin.version>1.2</maven-doap-plugin.version>
     <maven-jxr-plugin.version>3.3.0</maven-jxr-plugin.version>
     <!-- Do not update the pdf plugin version without verifying the new version works by running mvn site -->
-    <maven-pdf-plugin.version>1.2</maven-pdf-plugin.version>
+    <maven-pdf-plugin.version>1.6.1</maven-pdf-plugin.version>
     <maven-pmd-plugin.version>3.19.0</maven-pmd-plugin.version>
-    <maven-scm-plugin.version>1.12.2</maven-scm-plugin.version>
+    <maven-scm-plugin.version>1.13.0</maven-scm-plugin.version>
     <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
     <maven-taglib-plugin.version>2.4</maven-taglib-plugin.version>
-    <revapi-maven-plugin.version>0.12.2</revapi-maven-plugin.version>
-    <spotbugs-maven-plugin.version>4.7.2.1</spotbugs-maven-plugin.version>
-    <spotless-maven-plugin.version>2.27.2</spotless-maven-plugin.version>
+    <revapi-maven-plugin.version>0.15.0</revapi-maven-plugin.version>
+    <spotbugs-maven-plugin.version>4.7.3.0</spotbugs-maven-plugin.version>
+    <spotless-maven-plugin.version>2.28.0</spotless-maven-plugin.version>
     <!-- surefire.plugin.version 2.18 yields http://jira.codehaus.org/browse/SUREFIRE-1121, which is fixed in 2.18.1 -->
     <!-- surefire.plugin.version 2.19 yields https://issues.apache.org/jira/browse/SUREFIRE-1193. -->
     <!-- all versions after 2.13 yield https://issues.apache.org/jira/browse/SUREFIRE-720 -->
@@ -278,38 +278,38 @@
     <!-- Dependency versions -->
     <!-- We can use the property names from Spring Boot: -->
     <!--  https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-dependencies/2.7.4/spring-boot-dependencies-2.7.4.pom -->
-    <activemq.version>5.17.2</activemq.version>
+    <activemq.version>5.17.3</activemq.version>
     <assertj.version>3.21.0</assertj.version>
-    <awaitility.version>4.0.2</awaitility.version>
+    <awaitility.version>4.2.0</awaitility.version>
     <bsh.version>2.0b6</bsh.version>
-    <cassandra.version>3.11.13</cassandra.version>
+    <cassandra.version>3.11.14</cassandra.version>
     <cassandra-driver.version>3.11.3</cassandra-driver.version>
     <commons-codec.version>1.15</commons-codec.version>
-    <commons-compress.version>1.21</commons-compress.version>
+    <commons-compress.version>1.22</commons-compress.version>
     <commons-csv.version>1.8</commons-csv.version>
     <commons-dbcp2.version>2.9.0</commons-dbcp2.version>
     <commons-io.version>2.11.0</commons-io.version>
     <commons-lang3.version>3.12.0</commons-lang3.version>
     <commons-logging.version>1.2</commons-logging.version>
     <commons-pool2.version>2.11.1</commons-pool2.version>
-    <conversant.disruptor.version>1.2.19</conversant.disruptor.version> <!-- Version 1.2.16 requires Java 9 -->
+    <conversant.disruptor.version>1.2.21</conversant.disruptor.version> <!-- Version 1.2.16 requires Java 9 -->
     <disruptor.version>3.4.4</disruptor.version>
-    <elasticsearch.version>7.17.6</elasticsearch.version>
+    <elasticsearch.version>7.17.8</elasticsearch.version>
     <embedded-ldap.version>0.9.0</embedded-ldap.version>
-    <embedded-mongo.version>3.5.1</embedded-mongo.version>
+    <embedded-mongo.version>4.3.3</embedded-mongo.version>
     <errorprone.version>2.7.1</errorprone.version>
     <felix.version>7.0.5</felix.version>
     <flume.version>1.10.1</flume.version>
-    <graalvm.version>21.3.0</graalvm.version>
+    <graalvm.version>22.3.0</graalvm.version>
     <groovy.version>4.0.6</groovy.version>
     <guava.version>31.1-jre</guava.version>
     <h2.version>1.4.199</h2.version>
     <hadoop.version>1.2.1</hadoop.version>
     <hamcrest.version>2.2</hamcrest.version>
     <HdrHistogram.version>2.1.12</HdrHistogram.version>
-    <hsqldb.version>2.4.1</hsqldb.version>
+    <hsqldb.version>2.7.1</hsqldb.version>
     <jackson1.version>1.9.13</jackson1.version>
-    <jackson-bom.version>2.13.4.20221013</jackson-bom.version>
+    <jackson-bom.version>2.14.1</jackson-bom.version>
     <!-- Implementation of `jakarta.activation-api` -->
     <jakarta-activation.version>2.0.1</jakarta-activation.version>
     <jakarta-mail.version>2.0.1</jakarta-mail.version>
@@ -324,56 +324,52 @@
     <javax-persistence.version>2.2</javax-persistence.version>
     <javax-servlet.version>4.0.1</javax-servlet.version>
     <javax-servlet-jsp.version>2.3.3</javax-servlet-jsp.version>
-    <jansi.version>2.3.2</jansi.version>
+    <jansi.version>2.4.0</jansi.version>
     <java-allocation-instrumenter.version>3.3.0</java-allocation-instrumenter.version>
-    <jctools.version>3.3.0</jctools.version>
-    <je.version>5.0.73</je.version>
-    <jeromq.version>0.5.2</jeromq.version>
-    <jetty.version>9.4.49.v20220914</jetty.version>
+    <jctools.version>4.0.1</jctools.version>
+    <je.version>18.3.12</je.version>
+    <jeromq.version>0.5.3</jeromq.version>
+    <jetty.version>11.0.13</jetty.version>
     <jmdns.version>3.5.8</jmdns.version>
-    <jmh.version>1.35</jmh.version>
+    <jmh.version>1.36</jmh.version>
     <jna.version>5.12.1</jna.version>
     <json-unit.version>2.36.0</json-unit.version>
     <junit.version>4.13.2</junit.version>
     <junit-jupiter.version>5.9.1</junit-jupiter.version>
-    <!-- Do not upgrade to 1.7.x until https://github.com/junit-pioneer/junit-pioneer/issues/623 is fixed -->
-    <junit-pioneer.version>1.6.2</junit-pioneer.version>
-    <kafka.version>1.1.1</kafka.version>
-    <kubernetes-client.version>4.6.1</kubernetes-client.version>
-    <lightcouch.version>0.0.6</lightcouch.version>
+    <liquibase.version>4.18.0</liquibase.version>
     <liquibase.version>3.5.5</liquibase.version>
     <log4j.version>1.2.17</log4j.version>
     <log4j2-custom-layout.version>1.1.0</log4j2-custom-layout.version>
     <log4j2-ecs-layout.version>1.5.0</log4j2-ecs-layout.version>
     <log4j2-logstash-layout.version>0.18</log4j2-logstash-layout.version>
-    <logback.version>1.2.11</logback.version>
-    <maven.version>3.8.6</maven.version>
-    <mockito.version>4.8.1</mockito.version>
-    <mongodb.version>4.0.3</mongodb.version>
-    <nashorn.version>15.3</nashorn.version>
-    <netty.version>4.1.84.Final</netty.version>
+    <logback.version>1.4.5</logback.version>
+    <maven.version>3.8.6</maven.version>w
+    <mockito.version>4.10.0</mockito.version>ww
+    <mongodb.version>4.8.1</mongodb.version>
+    <nashorn.version>15.4</nashorn.version>
+    <netty.version>4.1.86.Final</netty.version>w
     <opentest4j.version>1.2.0</opentest4j.version>
     <org.eclipse.osgi.version>3.16.200</org.eclipse.osgi.version>
-    <org.eclipse.persistence.version>2.7.11</org.eclipse.persistence.version>
+    <org.eclipse.persistence.version>4.0.0</org.eclipse.persistence.version>
     <oro.version>2.0.8</oro.version>
     <!-- The OSGi API version MUST always be the MINIMUM version Log4j supports -->
     <osgi.framework.version>1.10.0</osgi.framework.version>
     <osgi.resource.version>1.0.1</osgi.resource.version>
     <pax-exam.version>4.13.5</pax-exam.version>
     <plexus.errorprone.version>2.8.8</plexus.errorprone.version>
-    <plexus-utils.version>3.2.0</plexus-utils.version>
+    <plexus-utils.version>3.5.0</plexus-utils.version>
     <revapi.version>0.22.1</revapi.version>
-    <slf4j.version>1.7.36</slf4j.version>
     <spotbugs.version>4.7.3</spotbugs.version>
-    <spring.version>5.3.23</spring.version>
-    <spring-boot.version>2.7.5</spring-boot.version>
+    <slf4j.version>2.0.6</slf4j.version>
+    <spring.version>6.0.3</spring.version>
+    <spring-boot.version>3.0.0</spring-boot.version>
     <system-stubs.version>2.0.1</system-stubs.version>
-    <tomcat-juli.version>10.0.23</tomcat-juli.version>
+    <tomcat-juli.version>10.1.4</tomcat-juli.version>
     <velocity.version>1.7</velocity.version>
     <wagon.version>3.1.0</wagon.version>
-    <wiremock.version>2.34.0</wiremock.version>
+    <wiremock.version>2.35.0</wiremock.version>
     <woodstox.version>6.3.1</woodstox.version>
-    <xmlunit.version>2.8.3</xmlunit.version>
+    <xmlunit.version>2.9.0</xmlunit.version>
     <xz.version>1.9</xz.version>
   </properties>
 
@@ -1339,7 +1335,7 @@
         <plugin>
           <groupId>org.bsc.maven</groupId>
           <artifactId>maven-processor-plugin</artifactId>
-          <version>5.0-rc1</version>
+          <version>5.0-jdk8-rc3</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
