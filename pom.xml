@@ -343,7 +343,7 @@
     <log4j2-ecs-layout.version>1.5.0</log4j2-ecs-layout.version>
     <log4j2-logstash-layout.version>0.18</log4j2-logstash-layout.version>
     <logback.version>1.4.5</logback.version>
-    <maven.version>3.8.6</maven.version>w
+    <maven.version>3.8.7</maven.version>w
     <mockito.version>4.10.0</mockito.version>ww
     <mongodb.version>4.8.1</mongodb.version>
     <nashorn.version>15.4</nashorn.version>
