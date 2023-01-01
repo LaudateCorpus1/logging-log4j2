@@ -358,7 +358,7 @@
     <pax-exam.version>4.13.5</pax-exam.version>
     <plexus.errorprone.version>2.8.8</plexus.errorprone.version>
     <plexus-utils.version>3.5.0</plexus-utils.version>
-    <revapi.version>0.22.1</revapi.version>
+    <revapi.version>0.28.0</revapi.version>
     <spotbugs.version>4.7.3</spotbugs.version>
     <slf4j.version>2.0.6</slf4j.version>
     <spring.version>6.0.3</spring.version>
