@@ -361,7 +361,7 @@
     <revapi.version>0.22.1</revapi.version>
     <spotbugs.version>4.7.3</spotbugs.version>
     <slf4j.version>2.0.6</slf4j.version>
-    <spring.version>6.0.3</spring.version>
+    <spring.version>6.0.4</spring.version>
     <spring-boot.version>3.0.0</spring-boot.version>
     <system-stubs.version>2.0.1</system-stubs.version>
     <tomcat-juli.version>10.1.4</tomcat-juli.version>
