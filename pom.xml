@@ -363,7 +363,7 @@
     <slf4j.version>2.0.6</slf4j.version>
     <spring.version>6.0.3</spring.version>
     <spring-boot.version>3.0.0</spring-boot.version>
-    <system-stubs.version>2.0.1</system-stubs.version>
+    <system-stubs.version>2.0.2</system-stubs.version>
     <tomcat-juli.version>10.1.4</tomcat-juli.version>
     <velocity.version>1.7</velocity.version>
     <wagon.version>3.1.0</wagon.version>
