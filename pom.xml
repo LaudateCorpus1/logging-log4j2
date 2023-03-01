@@ -329,7 +329,7 @@
     <jctools.version>4.0.1</jctools.version>
     <je.version>18.3.12</je.version>
     <jeromq.version>0.5.3</jeromq.version>
-    <jetty.version>11.0.13</jetty.version>
+    <jetty.version>11.0.14</jetty.version>
     <jmdns.version>3.5.8</jmdns.version>
     <jmh.version>1.36</jmh.version>
     <jna.version>5.12.1</jna.version>
