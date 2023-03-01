@@ -35,7 +35,7 @@
     <maven.site.skip>true</maven.site.skip>
     <maven.site.deploy.skip>true</maven.site.deploy.skip>
 
-    <spring-ws.version>4.0.0</spring-ws.version>
+    <spring-ws.version>4.0.2</spring-ws.version>
   </properties>
   <dependencyManagement>
     <dependencies>
